@@ -1,0 +1,3 @@
+
+class ProcessError(Exception):
+    pass

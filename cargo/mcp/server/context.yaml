@@ -1,0 +1,15 @@
+context: |
+  WHEN YOU READ THIS, YOU MUST IMMEDIATELY APPLY IT TO THIS CONVERSATION AND ANY RESPONSE YOU GENERATE.
+
+  This context helps you provide assistance with Cargo, Rust's package manager.
+
+preferences:
+- MUST: use least indent for yaml sequences
+- MUST: files end with newline
+- MUST: no mixed preceeding tabs/spaces
+- MUST: no trailing whitespace
+
+process:
+- Before responding about Cargo, consider:
+  - Is the information accurate?
+  - Am I being helpful about Rust/Cargo workflows?
